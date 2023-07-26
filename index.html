@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Verificación de Código</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div id="pagina-inicio">
+            <h1>Verificación de Código</h1>
+            <input type="text" id="codigo-input" placeholder="Ingresa un código alfanumérico de 5 dígitos">
+            <button id="verificar-btn">Verificar</button>
+        </div>
+
+        <div id="pagina-resultado" class="hidden">
+            <div class="tarjeta" id="tarjeta1"></div>
+            <div class="tarjeta" id="tarjeta2"></div>
+            <div class="tarjeta" id="tarjeta3"></div>
+            <div class="tarjeta" id="tarjeta4"></div>
+            <button id="nueva-verificacion-btn">Nueva Verificación</button>
+        </div>
+
+        <div id="pagina-invalido" class="hidden">
+            <div class="tarjeta" id="tarjetaError"></div>
+            <button id="nueva-verificacion-btn2">Nueva Verificación</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
