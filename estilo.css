@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'fuenteTitulo';
+    src: url(info/Queensha.ttf);
+}
+
+@font-face {
+    font-family: 'fuenteContenido';
+    src: url(info/MADEINFINITY-Regular.otf);
+}
+
+body {
+    margin: auto;
+    min-height: 100vh;
+    background-color: rgb(10, 10, 10);
+    color: aliceblue;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    top: calc(50% - 76px);
+    left: calc(50% - 150px);
+    z-index: 1;
+}
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'fuenteTitulo';
+}
+
+.caja-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.input {
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    width: 130px;
+    height: 46px;
+    text-align: center;
+    font-family: "fuenteContenido";
+}
+
+.boton {
+    margin: 5px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(45deg, #f6c203 0%, #eec58b 51%, #c18608 100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-family: "fuenteContenido";
+}
+
+.caja-input .boton {
+    width: 130px;
+}
+
+.boton:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.boton:active {
+    transform: scale(0.95);
+}
+
+.resultado,
+.invalido {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.hidden {
+    display: none;
+}

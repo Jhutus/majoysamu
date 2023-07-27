@@ -2,32 +2,39 @@
 <html lang="es">
 
 <head>
-    <title>Verificación de Código</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Nuestros 15</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
 </head>
 
 <body>
+    <div id="canvasContainer"></div>
     <main>
-        <div id="pagina-inicio">
-            <h1>Verificación de Código</h1>
-            <input type="text" id="codigo-input" placeholder="Ingresa un código alfanumérico de 5 dígitos">
-            <button id="verificar-btn">Verificar</button>
+
+        <div id="pagina-inicio" class="inicio">
+            <h1>Bienvenidos</h1>
+            <div class="caja-input">
+                <input type="text" id="codigo-input" class="input" placeholder="Ingresa tu código" maxlength="5">
+                <button id="verificar-btn" class="boton" role="button">Entrar</button>
+            </div>
         </div>
 
-        <div id="pagina-resultado" class="hidden">
+        <div id="pagina-resultado" class="hidden resultado">
             <div class="tarjeta" id="tarjeta1"></div>
             <div class="tarjeta" id="tarjeta2"></div>
             <div class="tarjeta" id="tarjeta3"></div>
             <div class="tarjeta" id="tarjeta4"></div>
-            <button id="nueva-verificacion-btn">Nueva Verificación</button>
+            <button id="nueva-verificacion-btn" class="boton" role="button">Nuevo Código</button>
         </div>
 
-        <div id="pagina-invalido" class="hidden">
+        <div id="pagina-invalido" class="hidden invalido">
             <div class="tarjeta" id="tarjetaError"></div>
-            <button id="nueva-verificacion-btn2">Nueva Verificación</button>
+            <button id="nueva-verificacion-btn2" class="boton" role="button">Nuevo Código</button>
         </div>
     </main>
-
+    
+    <script src="fondo.js"></script>
     <script src="script.js"></script>
 </body>
 
