@@ -30,8 +30,11 @@ main {
     justify-content: center;
     position: absolute;
     text-align: center;
-    top: calc(50% - 76px);
-    left: calc(50% - 150px);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
     z-index: 1;
 }
 
@@ -85,11 +88,14 @@ h1 {
     -webkit-user-select: none;
     touch-action: manipulation;
     font-family: "fuenteContenido";
+
 }
 
 .caja-input .boton {
     width: 130px;
 }
+
+
 
 .boton:hover {
     background-position: right center;
@@ -102,6 +108,7 @@ h1 {
     transform: scale(0.95);
 }
 
+
 .resultado,
 .invalido {
     display: flex;
@@ -109,6 +116,58 @@ h1 {
     align-items: center;
     align-content: center;
     width: 80%;
+    margin: auto;
+}
+
+.coleccion {
+    width: 500px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+
+}
+
+.tarjetas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.tarjeta {
+    display: flex;
+    padding: 5px;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    margin:10px 10px;
+    background-image: linear-gradient(45deg, #f6c203 0%, #eec58b 51%, #c18608 100%);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+.cajaBoton {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.coleccion .boton {
+
+    padding: 15px;
+    width: 160px;
     margin: auto;
 }
 

@@ -143,13 +143,13 @@ nuevaVerificacionBtn2.addEventListener("click", function () {
 
 // Agregar eventos a las tarjetas para cambiar su contenido al hacer clic
 tarjeta2.addEventListener("click", function () {
-    tarjeta2.textContent = "Carrera esta conjunto este";
+    tarjeta2.textContent = "Salon de recepciones Leidy <br> Crr 72a 72-23 <br> Santa Maria del Lago";
 });
 
 tarjeta3.addEventListener("click", function () {
-    tarjeta3.textContent = "18 de septiembre";
+    tarjeta3.textContent = "23 de Septiembre";
 });
 
 tarjeta4.addEventListener("click", function () {
-    tarjeta4.textContent = "6 de la tarde";
+    tarjeta4.textContent = "7 pm";
 });

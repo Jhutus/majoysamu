@@ -21,19 +21,27 @@
         </div>
 
         <div id="pagina-resultado" class="hidden resultado">
-            <div class="tarjeta" id="tarjeta1"></div>
-            <div class="tarjeta" id="tarjeta2"></div>
-            <div class="tarjeta" id="tarjeta3"></div>
-            <div class="tarjeta" id="tarjeta4"></div>
-            <button id="nueva-verificacion-btn" class="boton" role="button">Nuevo Código</button>
+            <div class="coleccion">
+                <div class="tarjetas">
+                    <div class="tarjeta" id="tarjeta1"></div>
+                    <div class="tarjeta" id="tarjeta2"></div>
+                    <div class="tarjeta" id="tarjeta3"></div>
+                    <div class="tarjeta" id="tarjeta4"></div>
+                </div>
+                <div class="cajaBoton">
+                    <button id="nueva-verificacion-btn" class="boton" role="button">Nuevo Código</button>
+                </div>
+            </div>
         </div>
 
         <div id="pagina-invalido" class="hidden invalido">
-            <div class="tarjeta" id="tarjetaError"></div>
-            <button id="nueva-verificacion-btn2" class="boton" role="button">Nuevo Código</button>
+            <div class="coleccion">
+                <div class="tarjeta" id="tarjetaError"></div>
+                <button id="nueva-verificacion-btn2" class="boton" role="button">Nuevo Código</button>
+            </div>
         </div>
     </main>
-    
+
     <script src="fondo.js"></script>
     <script src="script.js"></script>
 </body>

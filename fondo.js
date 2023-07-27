@@ -28,7 +28,7 @@ class Confeti {
     this.angle = random(TWO_PI); // Ángulo inicial de rotación
     this.rotationSpeed = random(-0.05, 0.05); // Velocidad de rotación
     this.alpha = 255; // Valor de transparencia
-    this.fadeThreshold = height / 2; // Umbral para desvanecimiento
+    this.fadeThreshold = height / 3; // Umbral para desvanecimiento
   }
 
   fall() {
