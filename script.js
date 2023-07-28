@@ -89,6 +89,11 @@ const tarjeta4 = document.getElementById("tarjeta4");
 const tarjetaError = document.getElementById("tarjetaError");
 const nuevaVerificacionBtn = document.getElementById("nueva-verificacion-btn");
 const nuevaVerificacionBtn2 = document.getElementById("nueva-verificacion-btn2");
+const tarjeta1back = document.getElementById("tarjeta1back");
+const tarjeta2back = document.getElementById("tarjeta2back");
+const tarjeta3back = document.getElementById("tarjeta3back");
+const tarjeta4back = document.getElementById("tarjeta4back");
+
 
 // Agregar un evento al botón de verificar
 verificarBtn.addEventListener("click", function () {
@@ -110,7 +115,8 @@ verificarBtn.addEventListener("click", function () {
             invitacion = "invitados";
         }
 
-        tarjeta1.textContent = `${generoSaludo}, ${invitado.nombre}. Estás cordialmente ${invitacion} a nuestra fiesta de 15.`;
+        tarjeta1.textContent = `${generoSaludo}, ${invitado.nombre}.`;
+        tarjeta1back.textContent = `Estás cordialmente ${invitacion} a nuestra fiesta de 15.`
         tarjeta2.textContent = "Lugar";
         tarjeta3.textContent = "Fecha";
         tarjeta4.textContent = "Hora";
@@ -142,14 +148,21 @@ nuevaVerificacionBtn2.addEventListener("click", function () {
 });
 
 // Agregar eventos a las tarjetas para cambiar su contenido al hacer clic
+tarjeta1.addEventListener("click", function () {
+    tarjeta1back.classList.remove("hidden");
+    tarjeta1.classList.add("hidden");
+});
 tarjeta2.addEventListener("click", function () {
-    tarjeta2.textContent = "Salon de recepciones Leidy <br> Crr 72a 72-23 <br> Santa Maria del Lago";
+    tarjeta2back.classList.remove("hidden");
+    tarjeta2.classList.add("hidden");
 });
 
 tarjeta3.addEventListener("click", function () {
-    tarjeta3.textContent = "23 de Septiembre";
+    tarjeta3back.classList.remove("hidden");
+    tarjeta3.classList.add("hidden");
 });
 
 tarjeta4.addEventListener("click", function () {
-    tarjeta4.textContent = "7 pm";
+    tarjeta4back.classList.remove("hidden");
+    tarjeta4.classList.add("hidden");
 });

@@ -76,7 +76,7 @@ h1 {
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    color: white;
+    color: black;
     border-radius: 10px;
     display: block;
     border: 0px;
@@ -148,10 +148,12 @@ h1 {
 .tarjeta {
     display: flex;
     padding: 5px;
-    border-radius: 20px;
+    border-radius: 40px;
     width: 200px;
     height: 200px;
-    margin:10px 10px;
+    margin: 20px;
+    color: black;
+    font-family: 'fuenteContenido';
     background-image: linear-gradient(45deg, #f6c203 0%, #eec58b 51%, #c18608 100%);
     text-align: center;
     justify-content: center;
@@ -159,9 +161,13 @@ h1 {
     font-size: large;
 }
 
+.tarjetas .tarjeta {
+    cursor: pointer;
+}
+
 .cajaBoton {
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .coleccion .boton {
