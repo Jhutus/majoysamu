@@ -115,11 +115,9 @@ verificarBtn.addEventListener("click", function () {
             invitacion = "invitados";
         }
 
-        tarjeta1.textContent = `${generoSaludo}, ${invitado.nombre}.`;
-        tarjeta1back.textContent = `Estás cordialmente ${invitacion} a nuestra fiesta de 15.`
-        tarjeta2.textContent = "Lugar";
-        tarjeta3.textContent = "Fecha";
-        tarjeta4.textContent = "Hora";
+        tarjeta1.innerHTML = `${generoSaludo}, ${invitado.nombre}.`;
+        tarjeta1back.innerHTML = `Estás cordialmente ${invitacion} a nuestra <br> fiesta de 15.`
+    
         // Ocultar la página de inicio y mostrar la página de resultado
         paginaInicio.classList.add("hidden");
         paginaResultado.classList.remove("hidden");
@@ -127,7 +125,6 @@ verificarBtn.addEventListener("click", function () {
     } else {
         tarjetaError.textContent = "Lo siento, tu código no tiene una invitación asignada. Por favor, ingresa el código correcto.";
         paginaInicio.classList.add("hidden");
-        paginaResultado.classList.add("hidden");
         paginaInvalido.classList.remove("hidden");
     }
 
@@ -147,7 +144,7 @@ nuevaVerificacionBtn2.addEventListener("click", function () {
     codigoInput.value = ""; // Limpiar el valor del input
 });
 
-// Agregar eventos a las tarjetas para cambiar su contenido al hacer clic
+/* // Agregar eventos a las tarjetas para cambiar su contenido al hacer clic
 tarjeta1.addEventListener("click", function () {
     tarjeta1back.classList.remove("hidden");
     tarjeta1.classList.add("hidden");
@@ -165,4 +162,4 @@ tarjeta3.addEventListener("click", function () {
 tarjeta4.addEventListener("click", function () {
     tarjeta4back.classList.remove("hidden");
     tarjeta4.classList.add("hidden");
-});
+}); */

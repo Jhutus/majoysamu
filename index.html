@@ -22,15 +22,32 @@
 
         <div id="pagina-resultado" class="hidden resultado">
             <div class="coleccion">
-                <div class="tarjetas">
-                    <div class="tarjeta" id="tarjeta1"></div>
-                    <div class="tarjeta hidden" id="tarjeta1back"></div>
-                    <div class="tarjeta" id="tarjeta2"></div>
-                    <div class="tarjeta hidden" id="tarjeta2back">Salon de recepciones Leidy <br> Crr 72a 72-23 <br> Santa Maria del Lago</div>
-                    <div class="tarjeta" id="tarjeta3"></div>
-                    <div class="tarjeta hidden" id="tarjeta3back">23 de Septiembre</div>
-                    <div class="tarjeta" id="tarjeta4"></div>
-                    <div class="tarjeta hidden" id="tarjeta4back">7 pm</div>
+                <div class="tarjetas-grid">
+                    <div class="tarjeta">
+                        <div class="tarjeta-inner">
+                            <div class="frente" id="tarjeta1"></div>
+                            <div class="atras" id="tarjeta1back"></div>
+                        </div>
+                    </div>
+                    <div class="tarjeta">
+                        <div class="tarjeta-inner">
+                            <div class="frente">Lugar</div>
+                            <div class="atras">Salon de recepciones Leidy <br> Crr 72a 72-23
+                                <br> Santa Maria del Lago </div>
+                        </div>
+                    </div>
+                    <div class="tarjeta">
+                        <div class="tarjeta-inner">
+                            <div class="frente">Fecha</div>
+                            <div class="atras">23 de Septiembre</div>
+                        </div>
+                    </div>
+                    <div class="tarjeta">
+                        <div class="tarjeta-inner">
+                            <div class="frente">Hora</div>
+                            <div class="atras">7 pm</div>
+                        </div>
+                    </div>
                 </div>
                 <div class="cajaBoton">
                     <button id="nueva-verificacion-btn" class="boton" role="button">Nuevo Código</button>
@@ -41,7 +58,7 @@
         <div id="pagina-invalido" class="hidden invalido">
             <div class="coleccion">
                 <div class="tarjetas">
-                    <div class="tarjeta" id="tarjetaError"></div>
+                    <div class="estiloTarjeta" id="tarjetaError"></div>
                 </div>
                 <div class="cajaBoton">
                     <button id="nueva-verificacion-btn2" class="boton" role="button">Nuevo Código</button>
