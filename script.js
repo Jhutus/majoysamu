@@ -1,78 +1,78 @@
 // Lista de códigos válidos y nombres asociados con información adicional
 const codigosValidos = {
-    "ABCDE": { nombre: "Samantha Pineda", tipo: "mujer" },
-    "FGHI1": { nombre: "Juliana", tipo: "mujer" },
-    "FGHI2": { nombre: "Daniel Roa", tipo: "hombre" },
-    "FGHI3": { nombre: "Estiven Blanco", tipo: "hombre" },
-    "FGHI4": { nombre: "Breinner Santiago Gonzales", tipo: "hombre" },
-    "FGHI5": { nombre: "Felipe Muñoz", tipo: "hombre" },
-    "FGHI6": { nombre: "Julian Almanza", tipo: "hombre" },
-    "FGHI7": { nombre: "Andres Almanza", tipo: "hombre" },
-    "FGHI8": { nombre: "Sergio", tipo: "hombre" },
-    "FGHI9": { nombre: "Jose Bermudez", tipo: "hombre" },
-    "FGHI0": { nombre: "Santiago Santafé", tipo: "hombre" },
-    "KGHI0": { nombre: "Alejandro Olarte", tipo: "hombre" },
-    "KGHI1": { nombre: "Mateo Quiñonez", tipo: "hombre" },
-    "KGHI2": { nombre: "Sebastian Muñoz", tipo: "hombre" },
-    "KGHI3": { nombre: "Sergio Huertas", tipo: "hombre" },
-    "KGHI4": { nombre: "Sara Ali", tipo: "mujer" },
-    "KGHI5": { nombre: "Diana Avila", tipo: "mujer" },
-    "KGHI6": { nombre: "Aura Parra", tipo: "mujer" },
-    "KGHI7": { nombre: "Ana Maria Zorro", tipo: "mujer" },
-    "KGHI8": { nombre: "Paula Sanchez", tipo: "mujer" },
-    "KGHI9": { nombre: "Isis Blandon", tipo: "mujer" },
-    "LGHI0": { nombre: "Geraldine Diaz", tipo: "mujer" },
-    "LGHI1": { nombre: "Sara Ruiz", tipo: "mujer" },
-    "LGHI2": { nombre: "Yeimy Pulido", tipo: "mujer" },
-    "LGHI3": { nombre: "Luna Alvarez", tipo: "mujer" },
-    "LGHI4": { nombre: "David Torres", tipo: "hombre" },
-    "LGHI5": { nombre: "Nicolas Sanchez", tipo: "hombre" },
-    "LGHI6": { nombre: "Daniel Valbuena", tipo: "hombre" },
-    "LGHI7": { nombre: "Camila Rodriguez", tipo: "mujer" },
-    "LGHI8": { nombre: "Sebastian Olmos", tipo: "hombre" },
-    "LGHI9": { nombre: "Luisa Oviedo", tipo: "mujer" },
-    "PGHI0": { nombre: "Ana Calderon", tipo: "mujer" },
-    "PGHI1": { nombre: "Karen Sofia Herrera", tipo: "mujer" },
-    "PGHI2": { nombre: "Sara Quinto", tipo: "mujer" },
-    "PGHI3": { nombre: "Mathias Lopez", tipo: "hombre" },
-    "PGHI4": { nombre: "Luis Piracun", tipo: "hombre" },
-    "PGHI5": { nombre: "Juan Sebastian Cardenas", tipo: "hombre" },
-    "PGHI6": { nombre: "Andres Ardila", tipo: "hombre" },
-    "PGHI7": { nombre: "Andres Obando", tipo: "hombre" },
-    "PGHI8": { nombre: "Celene Alvarez", tipo: "mujer" },
-    "PGHI9": { nombre: "Sebastian", tipo: "hombre" },
-    "YGHI0": { nombre: "Luisa", tipo: "mujer" },
-    "YGHI1": { nombre: "Mafe Muñoz", tipo: "mujer" },
-    "YGHI2": { nombre: "Mafe Fajardo", tipo: "mujer" },
-    "YGHI3": { nombre: "Majo Pineda", tipo: "mujer" },
-    "YGHI4": { nombre: "Diego Moreno", tipo: "hombre" },
-    "YGHI5": { nombre: "Juan David Muñoz", tipo: "hombre" },
-    "YGHI6": { nombre: "Sofia Tique", tipo: "mujer" },
-    "YGHI7": { nombre: "Familia Mejia Castro", tipo: "familia" },
-    "YGHI8": { nombre: "Familia Mejia Triviño", tipo: "familia" },
-    "YGHI9": { nombre: "Ledys Castro", tipo: "mujer" },
-    "WGHI0": { nombre: "Familia Castro Ortiz", tipo: "familia" },
-    "WGHI1": { nombre: "Familia Castro Carvajalino", tipo: "familia" },
-    "WGHI2": { nombre: "Familia Cabezas Ortiz", tipo: "familia" },
-    "WGHI3": { nombre: "Familia Torrez Ortiz", tipo: "familia" },
-    "WGHI4": { nombre: "Francisco Ortiz", tipo: "hombre" },
-    "WGHI5": { nombre: "Familia Castro Rincon", tipo: "familia" },
-    "WGHI6": { nombre: "Familia Garcia Castro", tipo: "familia" },
-    "WGHI7": { nombre: "Betsy Castro", tipo: "mujer" },
-    "WGHI8": { nombre: "Familia Otalora Cadena", tipo: "familia" },
-    "WGHI9": { nombre: "Familia Castro Rivera", tipo: "familia" },
-    "TGHI0": { nombre: "Familia Castro Gusi", tipo: "familia" },
-    "TGHI1": { nombre: "Familia Otalora Gonzales", tipo: "familia" },
-    "TGHI2": { nombre: "Familia Castro Sanguino", tipo: "familia" },
-    "TGHI3": { nombre: "Elizabeth Otalora", tipo: "mujer" },
-    "TGHI4": { nombre: "Familia Peña Aragon", tipo: "familia" },
-    "TGHI5": { nombre: "Familia Peña Lemus", tipo: "familia" },
-    "TGHI6": { nombre: "Familia Rincon Mendez", tipo: "familia" },
-    "TGHI7": { nombre: "Fernando Cubillos", tipo: "hombre" },
-    "TGHI8": { nombre: "Familia Leguizamon Yate", tipo: "familia" },
-    "TGHI9": { nombre: "Diana Caro", tipo: "mujer" },
-    "MGHI0": { nombre: "Oscar Castaño", tipo: "hombre" },
-    "MGHI1": { nombre: "Familia Botello Mesa", tipo: "familia" }
+    "MYMA9F": { nombre: "Samantha Pineda", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYMF8T": { nombre: "Juliana", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYMR5T": { nombre: "Daniel Roa", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYMN4I": { nombre: "Estiven Blanco", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYML9O": { nombre: "Breinner Santiago Gonzales", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYMP3E": { nombre: "Felipe Muñoz", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYMI94": { nombre: "Julian Almanza", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYMH4F": { nombre: "Andres Almanza", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYME3E": { nombre: "Sergio", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYMB6Y": { nombre: "Jose Bermudez", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYMM7U": { nombre: "Santiago Santafé", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYMS3D": { nombre: "Alejandro Olarte", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYMV6G": { nombre: "Mateo Quiñonez", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYMN8I": { nombre: "Sebastian Muñoz", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYMK9O": { nombre: "Sergio Huertas", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYMC5V": { nombre: "Sara Ali", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYMB6G": { nombre: "Diana Ávila", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYMZ3G": { nombre: "Aura Parra", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYMH8K": { nombre: "Ana Maria Zorro", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYMG5T": { nombre: "Paula Sanchez", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYMC8M": { nombre: "Isis Blandon", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYMS3F": { nombre: "Geraldine Díaz", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYMH6T": { nombre: "Sara Ruiz", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYMS8K": { nombre: "Yeimy Pulido", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYMK8Q": { nombre: "Luna Alvarez", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYML4M": { nombre: "David Torres", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYMC4J": { nombre: "Nicolas Sanchez", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYMS1L": { nombre: "Daniel Valbuena", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYML6F": { nombre: "Camila Rodríguez", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYMF3Y": { nombre: "Sebastian Olmos", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYMY5D": { nombre: "Luisa Oviedo", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYMD2B": { nombre: "Ana Calderon", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYMB8N": { nombre: "Karen Sofía Herrera", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYMN7T": { nombre: "Sara Quinto", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYMT4Q": { nombre: "Mathias López", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYMQ2H": { nombre: "Luis Piracun", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYMH7J": { nombre: "Juan Sebastian Cardenas", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYMJ4Z": { nombre: "Andres Ardila", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYMZ6M": { nombre: "Andres Obando", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYMM8I": { nombre: "Celene Alvarez", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYMI3D": { nombre: "Sebastian", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYMD5V": { nombre: "Luisa", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYMV3Q": { nombre: "Mafe Muñoz", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYMQ4Y": { nombre: "Mafe Fajardo", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYMR7L": { nombre: "Majo Pineda", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYML2D": { nombre: "Diego Moreno", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYMD1A": { nombre: "Juan David Muñoz", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYMA7M": { nombre: "Sofia Tique", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYMK8L": { nombre: "Familia Mejía Castro", tipo: "familia" , cantidad: "5", palabra: "Están"},
+    "MYME3U": { nombre: "Familia Mejía Triviño", tipo: "familia" , cantidad: "3", palabra: "Están"},
+    "MYMF5T": { nombre: "Ledys Castro", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYMT7P": { nombre: "Familia Castro Ortiz", tipo: "familia" , cantidad: "2", palabra: "Están"},
+    "MYMP4S": { nombre: "Familia Castro Carvajalino", tipo: "familia" , cantidad: "3", palabra: "Están"},
+    "MYMS1X": { nombre: "Familia Cabezas Ortiz", tipo: "familia" , cantidad: "3", palabra: "Están"},
+    "MYMX5T": { nombre: "Familia Torrez Ortiz", tipo: "familia" , cantidad: "3", palabra: "Están"},
+    "MYMF9P": { nombre: "Francisco Ortiz", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYMS8J": { nombre: "Familia Castro Rincón", tipo: "familia" , cantidad: "4", palabra: "Están"},
+    "MYMF6Y": { nombre: "Familia Garcia Castro", tipo: "familia" , cantidad: "2", palabra: "Están"},
+    "MYMK9V": { nombre: "Betsy Castro", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYMF1Q": { nombre: "Familia Otalora Cadena", tipo: "familia" , cantidad: "3", palabra: "Están"},
+    "MYMC6Y": { nombre: "Familia Castro Rivera", tipo: "familia" , cantidad: "3", palabra: "Están"},
+    "MYMJ9S": { nombre: "Familia Castro Gusi", tipo: "familia" , cantidad: "3", palabra: "Están"},
+    "MYMC8K": { nombre: "Familia Otalora Gonzales", tipo: "familia" , cantidad: "4", palabra: "Están"},
+    "MYML4D": { nombre: "Familia Castro Sanguino", tipo: "familia" , cantidad: "3", palabra: "Están"},
+    "MYMT7T": { nombre: "Elizabeth Otalora", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYMZ4A": { nombre: "Familia Peña Aragón", tipo: "familia" , cantidad: "4", palabra: "Están"},
+    "MYMC6T": { nombre: "Familia Peña Lemus", tipo: "familia" , cantidad: "3", palabra: "Están"},
+    "MYMY8Y": { nombre: "Familia Rincon Méndez", tipo: "familia" , cantidad: "3", palabra: "Están"},
+    "MYMA2Z": { nombre: "Fernando Cubillos", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYMN9I": { nombre: "Familia Leguizamón Yate", tipo: "familia" , cantidad: "4", palabra: "Están"},
+    "MYMM3W": { nombre: "Diana Caro", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "MYMW5R": { nombre: "Oscar Castaño", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "MYMX5W": { nombre: "Familia Botello Mesa", tipo: "familia", cantidad: "3", palabra: "Están" }
     // Agrega los demás códigos y nombres aquí con sus respectivos tipos
 };
 
@@ -83,16 +83,12 @@ const verificarBtn = document.getElementById("verificar-btn");
 const paginaResultado = document.getElementById("pagina-resultado");
 const paginaInvalido = document.getElementById("pagina-invalido");
 const tarjeta1 = document.getElementById("tarjeta1");
-const tarjeta2 = document.getElementById("tarjeta2");
-const tarjeta3 = document.getElementById("tarjeta3");
-const tarjeta4 = document.getElementById("tarjeta4");
 const tarjetaError = document.getElementById("tarjetaError");
 const nuevaVerificacionBtn = document.getElementById("nueva-verificacion-btn");
 const nuevaVerificacionBtn2 = document.getElementById("nueva-verificacion-btn2");
 const tarjeta1back = document.getElementById("tarjeta1back");
-const tarjeta2back = document.getElementById("tarjeta2back");
-const tarjeta3back = document.getElementById("tarjeta3back");
 const tarjeta4back = document.getElementById("tarjeta4back");
+const titulo = document.getElementById("titulo");
 
 
 // Agregar un evento al botón de verificar
@@ -114,9 +110,10 @@ verificarBtn.addEventListener("click", function () {
             generoSaludo = "Bienvenida";
             invitacion = "invitados";
         }
-
-        tarjeta1.innerHTML = `${generoSaludo}, ${invitado.nombre}.`;
-        tarjeta1back.innerHTML = `Estás cordialmente ${invitacion} a nuestra <br> fiesta de 15.`
+        titulo.innerHTML = `${invitado.nombre}`;
+        tarjeta1.innerHTML = `${generoSaludo}`;
+        tarjeta1back.innerHTML = `${invitado.palabra} cordialmente ${invitacion} a nuestra <br> fiesta de 15.`;
+        tarjeta4back.innerHTML = `${invitado.cantidad}`;
     
         // Ocultar la página de inicio y mostrar la página de resultado
         paginaInicio.classList.add("hidden");
