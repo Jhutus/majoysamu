@@ -184,12 +184,13 @@ h1 {
     cursor: default;
 }
 
-.sobre{
-    cursor: pointer;
+.icono{
+    width: 50%;
+    height: 50%;
 }
 
-.vinculo{
-    color: azure;
+.sobre{
+    cursor: pointer;
 }
 
 #tarjeta4back{
@@ -197,6 +198,7 @@ h1 {
 }
 .atras {
     transform: rotateY(180deg);
+    font-size: 1em;
 }
 
 .tarjeta:hover .tarjeta-inner {

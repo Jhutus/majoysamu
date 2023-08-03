@@ -82,7 +82,6 @@ const codigoInput = document.getElementById("codigo-input");
 const verificarBtn = document.getElementById("verificar-btn");
 const paginaResultado = document.getElementById("pagina-resultado");
 const paginaInvalido = document.getElementById("pagina-invalido");
-const tarjeta1 = document.getElementById("tarjeta1");
 const tarjetaError = document.getElementById("tarjetaError");
 const nuevaVerificacionBtn = document.getElementById("nueva-verificacion-btn");
 const nuevaVerificacionBtn2 = document.getElementById("nueva-verificacion-btn2");
@@ -107,12 +106,11 @@ verificarBtn.addEventListener("click", function () {
             generoSaludo = "Bienvenida";
             invitacion = "invitada";
         } else if (invitado.tipo === "familia") {
-            generoSaludo = "Bienvenida";
+            generoSaludo = "Bienvenidos";
             invitacion = "invitados";
         }
         titulo.innerHTML = `${invitado.nombre}`;
-        tarjeta1.innerHTML = `${generoSaludo}`;
-        tarjeta1back.innerHTML = `${invitado.palabra} cordialmente <br> ${invitacion} a nuestra <br> fiesta de 15.`;
+        tarjeta1back.innerHTML = `${generoSaludo}, <br>${invitado.palabra} cordialmente <br> ${invitacion} a nuestra <br> fiesta de 15.`;
         tarjeta4back.innerHTML = `${invitado.cantidad}`;
     
         // Ocultar la página de inicio y mostrar la página de resultado
