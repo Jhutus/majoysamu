@@ -87,6 +87,7 @@ const nuevaVerificacionBtn = document.getElementById("nueva-verificacion-btn");
 const nuevaVerificacionBtn2 = document.getElementById("nueva-verificacion-btn2");
 const tarjeta1back = document.getElementById("tarjeta1back");
 const tarjeta4back = document.getElementById("tarjeta4back");
+
 const titulo = document.getElementById("titulo");
 
 
@@ -138,23 +139,3 @@ nuevaVerificacionBtn2.addEventListener("click", function () {
     paginaInicio.classList.remove("hidden");
     codigoInput.value = ""; // Limpiar el valor del input
 });
-
-/* // Agregar eventos a las tarjetas para cambiar su contenido al hacer clic
-tarjeta1.addEventListener("click", function () {
-    tarjeta1back.classList.remove("hidden");
-    tarjeta1.classList.add("hidden");
-});
-tarjeta2.addEventListener("click", function () {
-    tarjeta2back.classList.remove("hidden");
-    tarjeta2.classList.add("hidden");
-});
-
-tarjeta3.addEventListener("click", function () {
-    tarjeta3back.classList.remove("hidden");
-    tarjeta3.classList.add("hidden");
-});
-
-tarjeta4.addEventListener("click", function () {
-    tarjeta4back.classList.remove("hidden");
-    tarjeta4.classList.add("hidden");
-}); */
