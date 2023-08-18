@@ -65,7 +65,7 @@ const codigosValidos = {
     "SYMC8K": { nombre: "Familia Otalora Gonzales", tipo: "familia" , cantidad: "4", palabra: "Están"},
     "SYML4D": { nombre: "Familia Castro Sanguino", tipo: "familia" , cantidad: "3", palabra: "Están"},
     "SYMT7T": { nombre: "Elizabeth Otalora", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
-    "SYMZ4A": { nombre: "Familia Peña Aragón", tipo: "familia" , cantidad: "4", palabra: "Están"},
+    "SYMZ4A": { nombre: "Familia Peña Aragón", tipo: "familia" , cantidad: "2", palabra: "Están"},
     "SYMC6T": { nombre: "Familia Peña Lemus", tipo: "familia" , cantidad: "3", palabra: "Están"},
     "SYMY8Y": { nombre: "Familia Rincon Méndez", tipo: "familia" , cantidad: "3", palabra: "Están"},
     "SYMA2Z": { nombre: "Fernando Cubillos", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
