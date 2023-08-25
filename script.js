@@ -83,6 +83,7 @@ const codigosValidos = {
     "SYMS21": { nombre: "Gloria Mejía", tipo: "mujer", cantidad: "1", palabra: "Estás" },
     "SYM46Q": { nombre: "Familia Mejía Londoño", tipo: "familia", cantidad: "2", palabra: "" },
     "SYM12A": { nombre: "Karol Buitrago", tipo: "mujer", cantidad: "1", palabra: "Estás" },
+    "SYM1T4": { nombre: "Luisa Ochoa", tipo: "mujer", cantidad: "1", palabra: "Estás" },
     "SYM76H": { nombre: "Jhonatan Garzon", tipo: "hombre", cantidad: "1", palabra: "Estás" },
     "SYMK81": { nombre: "Nicole Carletti", tipo: "mujer", cantidad: "1", palabra: "Estás" },
     "SYMB43": { nombre: "Jose y Laura", tipo: "familia", cantidad: "2", palabra: "Están" }
