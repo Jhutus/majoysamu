@@ -1,14 +1,14 @@
 // Lista de códigos válidos y nombres asociados con información adicional
 const codigosValidos = {
     "SYMA9F": { nombre: "Samantha Pineda", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
-    "SYMF8T": { nombre: "Juliana", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "SYMF8T": { nombre: "Juliana Valbuena", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
     "SYMR5T": { nombre: "Daniel Roa", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
     "SYMN4I": { nombre: "Estiven Blanco", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
     "SYML9O": { nombre: "Breinner Santiago Gonzales", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
     "SYMP3E": { nombre: "Felipe Muñoz", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
     "SYMI94": { nombre: "Julian Almanza", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
     "SYMH4F": { nombre: "Andres Almanza", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
-    "SYME3E": { nombre: "Sergio", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "SYME3E": { nombre: "Sergio Valbuena", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
     "SYMB6Y": { nombre: "Jose Bermudez", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
     "SYMM7U": { nombre: "Santiago Santafé", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
     "SYMS3D": { nombre: "Alejandro Olarte", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
@@ -40,8 +40,8 @@ const codigosValidos = {
     "SYMJ4Z": { nombre: "Andres Ardila", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
     "SYMZ6M": { nombre: "Andres Obando", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
     "SYMM8I": { nombre: "Celene Alvarez", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
-    "SYMI3D": { nombre: "Sebastian", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
-    "SYMD5V": { nombre: "Luisa", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "SYMI3D": { nombre: "Sebastian Angel", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "SYMD5V": { nombre: "Luisa Vargas", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
     "SYMV3Q": { nombre: "Mafe Muñoz", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
     "SYMQ4Y": { nombre: "Mafe Fajardo", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
     "SYMR7L": { nombre: "Majo Pineda", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
@@ -65,14 +65,28 @@ const codigosValidos = {
     "SYMC8K": { nombre: "Familia Otalora Gonzales", tipo: "familia" , cantidad: "4", palabra: "Están"},
     "SYML4D": { nombre: "Familia Castro Sanguino", tipo: "familia" , cantidad: "3", palabra: "Están"},
     "SYMT7T": { nombre: "Elizabeth Otalora", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
-    "SYMZ4A": { nombre: "Familia Peña Aragón", tipo: "familia" , cantidad: "2", palabra: "Están"},
+    "SYMZ4A": { nombre: "Hermanas Peña Aragón", tipo: "hermanas" , cantidad: "2", palabra: "Están"},
     "SYMC6T": { nombre: "Familia Peña Lemus", tipo: "familia" , cantidad: "3", palabra: "Están"},
     "SYMY8Y": { nombre: "Familia Rincon Méndez", tipo: "familia" , cantidad: "3", palabra: "Están"},
     "SYMA2Z": { nombre: "Fernando Cubillos", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
     "SYMN9I": { nombre: "Familia Leguizamón Yate", tipo: "familia" , cantidad: "4", palabra: "Están"},
     "SYMM3W": { nombre: "Diana Caro", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
     "SYMW5R": { nombre: "Oscar Castaño", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
-    "SYMX5W": { nombre: "Familia Botello Mesa", tipo: "familia", cantidad: "3", palabra: "Están" }
+    "SYMX5W": { nombre: "Familia Botello Mesa", tipo: "familia", cantidad: "3", palabra: "Están" },
+    "SYM83J": { nombre: "Danna Gonzales", tipo: "mujer", cantidad: "1", palabra: "Estás" },
+    "SYMI41": { nombre: "Consuelo Mejía", tipo: "mujer", cantidad: "1", palabra: "Estás" },
+    "SYMP20": { nombre: "Juan Mejía", tipo: "hombre", cantidad: "1", palabra: "Estás" },
+    "SYM59A": { nombre: "Roberto Mejía", tipo: "hombre", cantidad: "1", palabra: "Estás" },
+    "SYM67N": { nombre: "Guillermo Mejía ", tipo: "hombre", cantidad: "1", palabra: "Estás" },
+    "SYMX32": { nombre: "Clara Mejía", tipo: "mujer", cantidad: "1", palabra: "Estás" },
+    "SYM94K": { nombre: "Marta Mejía", tipo: "mujer", cantidad: "1", palabra: "Estás" },
+    "SYMS21": { nombre: "Gloria Mejía", tipo: "mujer", cantidad: "1", palabra: "Estás" },
+    "SYM46Q": { nombre: "Familia Mejía Londoño", tipo: "familia", cantidad: "2", palabra: "" },
+    "SYM12A": { nombre: "Karol Buitrago", tipo: "mujer", cantidad: "1", palabra: "Estás" },
+    "SYM12A": { nombre: "Jhonatan Garzon", tipo: "hombre", cantidad: "1", palabra: "Estás" },
+    "SYM12A": { nombre: "Nicole Carletti", tipo: "mujer", cantidad: "1", palabra: "Estás" },
+    "SYM12A": { nombre: "Jose y Laura", tipo: "familia", cantidad: "2", palabra: "Están" },
+    "SYMG58": { nombre: "Manuel", tipo: "hombre", cantidad: "3", palabra: "Estás" }
     // Agrega los demás códigos y nombres aquí con sus respectivos tipos
 };
 
@@ -109,6 +123,9 @@ verificarBtn.addEventListener("click", function () {
         } else if (invitado.tipo === "familia") {
             generoSaludo = "Bienvenidos";
             invitacion = "invitados";
+        } else if (invitado.tipo === "hermanas"){
+            generoSaludo = "Bienvenidas";
+            invitacion = "invitadas"
         }
         titulo.innerHTML = `${invitado.nombre}`;
         tarjeta1back.innerHTML = `${generoSaludo}, <br>${invitado.palabra} cordialmente <br> ${invitacion} a nuestra <br> fiesta de 15.`;
