@@ -91,7 +91,9 @@ const codigosValidos = {
     "SYMKJ4": { nombre: "Luz Diana Gomez", tipo: "mujer", cantidad: "1", palabra: "Estás" },
     "SYMB43": { nombre: "Jose y Laura", tipo: "familia", cantidad: "2", palabra: "Están" },
     "SYMYT1": { nombre: "Clara Gallo y Familia", tipo: "familia", cantidad: "5", palabra: "Están" },
-    "SYMS6C": { nombre: "Familia Cortés Rubiano", tipo: "familia", cantidad: "2", palabra: "Están" }
+    "SYMS6C": { nombre: "Familia Cortés Rubiano", tipo: "familia", cantidad: "2", palabra: "Están" },
+    "SYM7KL": { nombre: "Luis Javier Ortiz", tipo: "hombre", cantidad: "1", palabra: "Estás" },
+    "SYM3SH": { nombre: "Juan David Botello", tipo: "hombre", cantidad: "1", palabra: "Estás" }
 
     // Agrega los demás códigos y nombres aquí con sus respectivos tipos
 };
