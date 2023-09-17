@@ -63,7 +63,7 @@ const codigosValidos = {
     "SYMF1Q": { nombre: "Familia Otalora Cadena", tipo: "familia" , cantidad: "3", palabra: "Están"},
     "SYMC6Y": { nombre: "Familia Castro Rivera", tipo: "familia" , cantidad: "3", palabra: "Están"},
     "SYMJ9S": { nombre: "Familia Castro Gusi", tipo: "familia" , cantidad: "3", palabra: "Están"},
-    "SYMC8K": { nombre: "Familia Otalora Gonzales", tipo: "familia" , cantidad: "4", palabra: "Están"},
+    "SYMC8K": { nombre: "Familia Gonzales Otalora", tipo: "familia" , cantidad: "4", palabra: "Están"},
     "SYML4D": { nombre: "Familia Castro Sanguino", tipo: "familia" , cantidad: "3", palabra: "Están"},
     "SYMT7T": { nombre: "Elizabeth Otalora", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
     "SYMZ4A": { nombre: "Hermanas Peña Aragón", tipo: "hermanas" , cantidad: "2", palabra: "Están"},
@@ -93,6 +93,7 @@ const codigosValidos = {
     "SYMYT1": { nombre: "Clara Gallo y Familia", tipo: "familia", cantidad: "5", palabra: "Están" },
     "SYMS6C": { nombre: "Familia Cortés Rubiano", tipo: "familia", cantidad: "2", palabra: "Están" },
     "SYM7KL": { nombre: "Luis Javier Ortiz", tipo: "hombre", cantidad: "1", palabra: "Estás" },
+    "SYM36T": { nombre: "Yisseth Jasbon Bocanegra", tipo: "mujer", cantidad: "1", palabra: "Estás" },
     "SYM3SH": { nombre: "Juan David Botello", tipo: "hombre", cantidad: "1", palabra: "Estás" }
 
     // Agrega los demás códigos y nombres aquí con sus respectivos tipos
