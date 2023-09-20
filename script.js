@@ -1,6 +1,6 @@
 // Lista de códigos válidos y nombres asociados con información adicional
 const codigosValidos = {
-    "SYMA9F": { nombre: "Samantha Pineda", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "SYMA9F": { nombre: "Samantha Pineda", tipo: "mujer" , cantidad: "2", palabra: "Estás"},
     "SYMF8T": { nombre: "Juliana Valbuena", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
     "SYMR5T": { nombre: "Daniel Roa", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
     "SYMN4I": { nombre: "Estiven Blanco", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
