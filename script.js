@@ -44,7 +44,7 @@ const codigosValidos = {
     "SYMD5V": { nombre: "Luisa Vargas", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
     "SYMV3Q": { nombre: "Mafe Muñoz", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
     "SYMQ4Y": { nombre: "Mafe Fajardo", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
-    "SYMR7L": { nombre: "Majo Pineda", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
+    "SYMR7L": { nombre: "Majo Pineda y Sofia Peña", tipo: "hermanas" , cantidad: "2", palabra: "Están"},
     "SYML2D": { nombre: "Diego Moreno", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
     "SYMD1A": { nombre: "Juan David Muñoz", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
     "SYMA7M": { nombre: "Sofia Tique", tipo: "mujer" , cantidad: "1", palabra: "Estás"},
@@ -55,7 +55,7 @@ const codigosValidos = {
     "SYMP4S": { nombre: "Familia Castro Carvajalino", tipo: "familia" , cantidad: "3", palabra: "Están"},
     "SYMS1X": { nombre: "Familia Cabezas Ortiz", tipo: "familia" , cantidad: "3", palabra: "Están"},
     "SYMX5T": { nombre: "Familia Torrez Ortiz", tipo: "familia" , cantidad: "3", palabra: "Están"},
-    "SYMF9P": { nombre: "Francisco Ortiz", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
+    "SYMF9P": { nombre: "Tomas Aldana", tipo: "hombre" , cantidad: "1", palabra: "Estás"},
     "SYMF5L": { nombre: "Martin Carvajalino y Familia", tipo: "familia" , cantidad: "2", palabra: "Están"},
     "SYMS8J": { nombre: "Familia Castro Rincón", tipo: "familia" , cantidad: "4", palabra: "Están"},
     "SYMF6Y": { nombre: "Familia Garcia Castro", tipo: "familia" , cantidad: "2", palabra: "Están"},
@@ -135,7 +135,7 @@ verificarBtn.addEventListener("click", function () {
         } else if (invitado.tipo === "hermanas"){
             generoSaludo = "Bienvenidas";
             invitacion = "invitadas"
-        }
+        } 
         titulo.innerHTML = `${invitado.nombre}`;
         tarjeta1back.innerHTML = `${generoSaludo}, <br>${invitado.palabra} cordialmente <br> ${invitacion} a nuestra <br> fiesta de 15.`;
         tarjeta4back.innerHTML = `${invitado.cantidad}`;
